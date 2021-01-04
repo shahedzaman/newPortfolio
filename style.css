@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* section{
+    border: 1px solid red;
+}
+div{
+    border: 1px solid red;
+} */
+
+.header-section{
+    height: 100vh;
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.half{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+div img{
+    width: 100%;
+}
+.header-text,.bio-text{
+    padding-top: 150px;
+    line-height: 2;
+}
+
+h3{
+    color: sandybrown;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: tomato;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.biography-section{
+    height: 100vh;
+    background-image: url("Images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.last-section{
+
+    height: 120vh;
+    background-image: url("Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+
+}
+
+.last-section h1{
+   
+    padding: 30px;
+}
+.work-all-img{
+    
+    height: 48vh;
+   margin: 50px;
+}
+
+.work-img{
+    width: 28%;
+    padding: 20px;
+    
+    float: left;
+}
+
+.last-section h3{
+    padding-bottom: 30px;
+}
+
+.last-section p{
+    padding-bottom: 30px;
+}
+
+
